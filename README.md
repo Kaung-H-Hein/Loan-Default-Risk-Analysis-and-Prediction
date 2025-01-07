@@ -1,21 +1,20 @@
 # Loan-Default-Risk-Analysis-and-Prediction
-This project provides a comprehensive analysis of loan default risk using the German Credit Dataset from the UCI Repository. It marks the first project in my MSc Artificial Intelligence studies. The project is organised into three key phases: data preprocessing, exploratory data analysis (EDA), and machine learning model development. It also incorporates advanced techniques such as Principal Component Analysis (PCA) for feature reduction and Markov Decision Processes (MDP) for simple decision optimisation. Here's an overview of the process:
+This project provides a comprehensive analysis of loan default risk using the German Credit Dataset from the UCI Repository. It marks the first project in my MSc Artificial Intelligence studies. The project is organised into three key phases: data preprocessing, exploratory data analysis (EDA), and machine learning model development. It also incorporates concepts such as Principal Component Analysis (PCA) for feature reduction and Markov Decision Processes (MDP) for simple decision optimisation simulation. Below is an overview of the process:
 
 ## Phase 1: Data Inspection and Preprocessing
 - Data Cleaning: Addressed missing values, encoded categorical features with OrdinalEncoder and LabelEncoder, and handled outliers.
 - Feature Engineering: Created additional features to improve predictive performance.
-- Scaling: Normalised numerical data using scaling techniques like RobustScaler, StandardScaler, and MinMaxScaler.
  
 ## Phase 2: Exploratory Data Analysis (EDA)
 - Statistical Insights: Conducted thorough EDA to understand data distributions and relationships with loan default.
-- Correlation Analysis: Used Pearson’s correlation coefficient to explore numerical feature relationships.
+- Correlation Analysis: Used Pearson’s correlation coefficient to explore linear relationships between important features.
 - Hypothesis Testing: Applied Chi-Squared and T-tests to examine feature dependencies and group differences.
 
 ## Phase 3: Machine Learning Model Development
 - Model Building: Developed a Decision Tree Classifier to predict loan defaults.
 - Feature Reduction: Implemented PCA to reduce dimensionality while preserving variance.
 - Model Optimisation: Tuned model hyperparameters with GridSearchCV for improved performance.
-- Decision Optimisation: Applied a Markov Decision Process (MDP) to optimise decision-making strategies based on loan default outcomes.
+- Decision Optimisation: Applied a Markov Decision Process (MDP) to simulate a simple decision-making strategies based on previous loan payments.
 
 ## Tools and Libraries Used
 - Data Analysis: pandas, numpy
@@ -26,5 +25,8 @@ This project provides a comprehensive analysis of loan default risk using the Ge
 - Feature Reduction: PCA
 - Optimisation: GridSearchCV
 
+## Model Performance
+- Achieved an average performance of 0.60 across metrics including model accuracy, precision, recall, and F1 score.
+  
 ## Project Outcomes
-This project demonstrates a systematic approach to analysing and predicting loan default risks. It integrates data science techniques with foundational AI concepts like PCA, and MDP, providing a thorough analysis and actionable insights for decision-making. The methodology offers practical applications in the financial domain, showcasing a robust pipeline for credit risk analysis and decision optimisation.
+This project highlights a structured approach to analysing and predicting loan default risks, effectively combining data science practices with core AI techniques. The integration of PCA for feature reduction and MDP for decision optimisation demonstrates an application of advanced methodologies to address real-world financial challenges. By systematically processing, analysing, and modelling the data, the project delivers meaningful insights into the factors influencing loan default. It also provides a robust framework for credit risk analysis, with practical implications for improving decision-making in financial systems.
