@@ -26,7 +26,7 @@ This project provides a comprehensive analysis of loan default risk using the Ge
 - Optimisation: GridSearchCV
 
 ## Model Performance
-- Achieved an average performance of 0.60 across metrics including model accuracy, precision, recall, and F1 score.
+Achieved an average performance of 0.60 across metrics including model accuracy, precision, recall, and F1 score.
   
 ## Project Outcomes
 This project highlights a structured approach to analysing and predicting loan default risks, effectively combining data science practices with core AI techniques. The integration of PCA for feature reduction and MDP for decision optimisation demonstrates an application of advanced methodologies to address real-world financial challenges. By systematically processing, analysing, and modelling the data, the project delivers meaningful insights into the factors influencing loan default. It also provides a robust framework for credit risk analysis, with practical implications for improving decision-making in financial systems.
